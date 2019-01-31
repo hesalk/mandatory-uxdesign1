@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Lab 1UX</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="mds.css" />
+    <script src="mds.js" defer></script>
+</head>
+<body>
+    <form action="" class="mds-form">
+        <div class="mds-header">
+            <h1 class="mds-header__text">material.io By Hesham</h1>
+        </div>
+        <div class="mds-text-field">
+            <label for="test" class="mds-text-field__lable">Namn</label>
+            <input type="text" id="test" class="mds-text-field__input">
+            <span class="mds-text-field__underline"></span>
+        </div>
+        <div class="mds-text-field">
+            <label for="test" class="mds-text-field__lable">Disabled</label>
+            <input disabled="true" type="text" id="test" class="mds-text-field__input">
+            <span class="mds-text-field__underline"></span>
+        </div>
+        <div class="mds-switch">
+            <input  type="checkbox" name="mds-switch" class="mds-switch__checkbox" id="mds-switch">
+            <label for="mds-switch" class="mds-switch__lable"></label>
+        </div>
+        <div class="mds-switch">
+                <input disabled="true" type="checkbox" name="mds-switch" class="mds-switch__checkbox" id="mds-switch2">
+                <label for="mds-switch2" class="mds-switch__lable">Disabled State</label>
+        </div>
+        <div class="mds-switch">
+                <input disabled="true" type="checkbox" name="mds-switch" class="mds-switch__checkbox" id="mds-switch3" checked>
+                <label for="mds-switch3" class="mds-switch__lable">Disabled State</label>
+        </div>
+        <div class="mds-checkbox">
+            <input type="checkbox" name="mds-checkbox" class="mds-checkbox__input" id="mds-checkbox-id" checked>
+            <label class="mds-checkbox__label" for="mds-checkbox-id"></label>
+        </div>
+        <div class="mds-checkbox">
+                <input disabled="true" type="checkbox" name="mds-checkbox" class="mds-checkbox__input" id="mds-checkbox-id2" checked>
+                <label class="mds-checkbox__label" for="mds-checkbox-id2"></label>
+        </div>
+        <label class="mds-radio">
+            <input class="mds-radio__input" type="radio" checked="checked" name="radio">
+            <span class="mds-radio__checkmark"></span>
+        </label>
+        <label class="mds-radio">
+            <input class="mds-radio__input" type="radio" name="radio">
+            <span class="mds-radio__checkmark"></span>
+        </label>
+        <label class="mds-radio">Disabled
+                <input disabled="true" class="mds-radio__input" type="radio" name="radio1">
+                <span class="mds-radio__checkmark"></span>
+        </label>
+        <label class="mds-radio">Disabled
+                <input disabled="true" class="mds-radio__input" type="radio" name="radio1" checked>
+                <span class="mds-radio__checkmark"></span>
+        </label>
+    </form>
+</body>
+</html>
